@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  list-style: none;
+}
+#home {
+  display: flex;
+  
+  flex-wrap: wrap;
+}
+figure
+{
+display: flex;
+
+}
+@media screen and (max-width: 576px) {
+   ul{display: flex; flex-direction: column;} 
+   figure { display: flex; flex-direction: column-reverse;}
+}
+
